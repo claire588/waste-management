@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Questions
+  m_EditorClassIdentifier: 
+  categoryName: Sort Your Garbage
+  questions:
+  - questionInfo: Which method is used to dispose of pet food?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Hazardous Waste Depot
+    - Black Bin
+    - Blue Bin
+    - Green Bin
+    correctAns: Green Bin
+  - questionInfo: What colour bin do tea and tea bags go in?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green
+    - Blue
+    - Black
+    - None of the above
+    correctAns: Green
+  - questionInfo: What colour bin do eggs go in?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green
+    - Black
+    - Blue
+    - None of the above
+    correctAns: Green
+  - questionInfo: Which bin does fruit go in when being thrown out?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 'Blue '
+    - Black
+    - Green
+    - None of the above
+    correctAns: Green
+  - questionInfo: Where do vegetables go when being thrown out?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - None of the above
+    correctAns: Green Bin
+  - questionInfo: What colour bin does seafood go in?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - None of the above
+    correctAns: Green Bin
+  - questionInfo: Where does cooked or uncooked meat go when being thrown out?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - None of the above
+    correctAns: Green Bin
+  - questionInfo: Which bin would you put leaves in?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - None of the above
+    correctAns: Green Bin
+  - questionInfo: Where do vegetables go when being thrown out?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - None of the above
+    correctAns: Green Bin
+  - questionInfo: Where do vegetables go when being thrown out?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - None of the above
+    correctAns: Green Bin
