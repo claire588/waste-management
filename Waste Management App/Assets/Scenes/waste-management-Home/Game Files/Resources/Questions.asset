@@ -1,0 +1,683 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Questions
+  m_EditorClassIdentifier: 
+  categoryName: Sort Your Garbage
+  questions:
+  - questionInfo: Which method is used to dispose of pet food?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 1d143041ad6ce294abee5fdad6569d59, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Hazardous Waste Depot
+    - Black Bin
+    - Blue Bin
+    - Green Bin
+    correctAns: Green Bin
+  - questionInfo: What colour bin do tea and tea bags go in?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 12f3bac6643e05b4fba71e4924649fc2, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green
+    - Blue
+    - Black
+    - None of the above
+    correctAns: Green
+  - questionInfo: What colour bin do eggs go in?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: fad217532981b7c4fa716455044b4500, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green
+    - Black
+    - Blue
+    - None of the above
+    correctAns: Green
+  - questionInfo: Which bin does fruit go in when being thrown out?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: e9d50fb3c181ea6409c3a25fd49248e8, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 'Blue '
+    - Black
+    - Green
+    - None of the above
+    correctAns: Green
+  - questionInfo: Where do vegetables go when being thrown out?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 265388a53af39654a94b024d68fc1033, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - None of the above
+    correctAns: Green Bin
+  - questionInfo: What colour bin does seafood go in?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 1a0d9c5a033de944b904810f24520b1f, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - None of the above
+    correctAns: Green Bin
+  - questionInfo: Where does cooked or uncooked meat go when being thrown out?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - None of the above
+    correctAns: Green Bin
+  - questionInfo: Which bin would you put leaves in?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: a8e50cfadba20d943b47986a895331b6, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - None of the above
+    correctAns: Green Bin
+  - questionInfo: Which method is used to dispose of plants?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - None of the above
+    correctAns: Green Bin
+  - questionInfo: Which method is used to dispose of branches?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Green Bin
+  - questionInfo: Which method is used to dispose of wooden popsicle sticks and toothpicks?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Green Bin
+  - questionInfo: Which method is used to dispose of paper flour bags?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 152997a12883c4c44909f0c08325b258, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Green Bin
+  - questionInfo: Which method is used to dispose of used paper coffee cups?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Green Bin
+  - questionInfo: Which method is used to dispose of used paper towel or napkins?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Green Bin
+  - questionInfo: Which method is used to dispose of pasta?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Green Bin
+  - questionInfo: Which method is used to dispose of empty glass jars and bottles?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: d10b7c57209eec543b28efebcfa722f9, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Blue Bin
+  - questionInfo: Which method is used to dispose of empty soft drink cans?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 5cf72d3cf1ddcbe44b0883238c04f074, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Blue Bin
+  - questionInfo: Which method is used to dispose of jar lids?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Blue Bin
+  - questionInfo: Which method is used to dispose of aluminum containers and foil?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Blue Bin
+  - questionInfo: Which method is used to dispose of completely empty paint cans
+      with lids removed?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Blue Bin
+  - questionInfo: Which method is used to dispose of empty aerosol cans?
+    questionType: 0
+    questionImage: {fileID: 21300000, guid: c6a5eae34b96e2d4f8de7728707b0e28, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Blue Bin
+  - questionInfo: Which method is used to dispose of plastic containers with numbers
+      1-5?
+    questionType: 0
+    questionImage: {fileID: 21300000, guid: 32ea75d58ab295648a702ee13462aaec, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Blue Bin
+  - questionInfo: Which method is used to dispose of plastic number 7?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Blue Bin
+  - questionInfo: Which method is used to dispose of plastic planting trays?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Blue Bin
+  - questionInfo: Which method is used to dispose of plastic flower pots?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Blue Bin
+  - questionInfo: Which method is used to dispose of milk cartons?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Blue Bin
+  - questionInfo: Which method is used to dispose of juice cartons?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Blue Bin
+  - questionInfo: Which method is used to dispose of clean soup cans?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Blue Bin
+  - questionInfo: Which method is used to dispose of empty wine bottles?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Return to nearest liquor store
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Return to nearest liquor store
+  - questionInfo: 'Which method is used to dispose of ceramic? (ex. dishes, pottery) '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Garbage Bag
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Garbage Bag
+  - questionInfo: Which method is used to dispose of broken glass?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Garbage Bag
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Garbage Bag
+  - questionInfo: Which method is used to dispose of metal coat hangers?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Garbage Bag
+    - Blue Bin
+    - Black Bin
+    - 'Return to a hazardous waste facility '
+    correctAns: Garbage Bag
+  - questionInfo: Which method is used to dispose of chip bags?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Garbage Bag
+    - Black Bin
+    - Blue Bin
+    correctAns: Garbage Bag
+  - questionInfo: Which method is used to dispose of plastic bags?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage Bag
+    correctAns: Garbage Bag
+  - questionInfo: Which method is used to dispose of empty motor oil containers?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Grabage
+  - questionInfo: Which method is used to dispose of old newspaper and flyers?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Black Bin
+  - questionInfo: Which method is used to dispose of magazines and catalogues?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Black Bin
+  - questionInfo: Which method is used to dispose of cardboard?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Black Bin
+  - questionInfo: Which method is used to dispose of cereal boxes?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Black Bin
+  - questionInfo: Which method is used to dispose of printer paper?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 1b673deb210e078459cd9380815eaee1, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Black Bin
+  - questionInfo: Which method is used to dispose of hard and soft cover books?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Black Bin
+  - questionInfo: Which method is used to dispose of egg cartons?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Black Bin
+  - questionInfo: Which method is used to dispose of paper towel rolls?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Black Bin
+  - questionInfo: Which method is used to dispose of frozen dinner boxes?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Black Bin
+  - questionInfo: Which method is used to dispose of food soiled pizza boxes?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: d7bb5d03685c9df43a372a17113e255f, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Green Bin
+  - questionInfo: Which method is used to dispose of a fairly clean pizza box?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 0ebb0da156592d24e9842626542751ac, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Black Bin
+  - questionInfo: Which method is used to dispose of milk bags?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Garbage
+  - questionInfo: Which method is used to dispose of paper or cardboard lined with
+      aluminum foil?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 72caac0b27befcf4da1317c5683fa897, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Garbage
+  - questionInfo: Which method is used to dispose of wooden orange crates?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Garbage
+  - questionInfo: Which method is used to dispose of paint or stainer cans that are
+      not empty?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: e72c7b97e486a3c4c966348025f7f54b, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Garbage
+    - Blue Bin
+    - Black Bin
+    - Return to store
+    correctAns: Return to store
+  - questionInfo: Which method is used to dispose of window cleaner?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 03752f8a677b1f446b333d71d12777c8, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Garbage
+    - Blue Bin
+    - Black Bin
+    - Return it to a hazardous waste management centre
+    correctAns: Return it to a hazardous waste management centre
+  - questionInfo: Which method is used to dispose of old or new gasoline?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Garbage
+    - Pour down a drain
+    - Pour it out in grass
+    - Return it to a hazardous waste management centre
+    correctAns: Return it to a hazardous waste management centre
+  - questionInfo: Which method is used to dispose of pool chemicals?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Wash it down a sink
+    - Garbage
+    - Return it to a hazardous waste management centre
+    - Dump it into a pond
+    correctAns: Return it to a hazardous waste management centre
+  - questionInfo: Which method is used to dispose of fertilizers and pesticides?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Garbage
+    - Green Bin
+    - Return it to a hazardous waste management centre
+    - Dump in a landfill
+    correctAns: Return it to a hazardous waste management centre
+  - questionInfo: Which method is used to dispose of expired medicine? (prescribed
+      or off the shelf)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Return it to a hazardous waste management centre
+    - Garbage
+    - Pour down a sink
+    correctAns: Return it to a hazardous waste management centre
+  - questionInfo: Which method is used to dispose of a full or empty propane cylinder?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: b4c0f2dbda674094cb6cf80f4c4c2064, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Return it to a hazardous waste management centre
+    - Blue Bin
+    - Black Bin
+    - Leave in a landfill
+    correctAns: Return it to a hazardous waste management centre
+  - questionInfo: Which method is used to dispose of old electronics? (phones, computer,
+      etc.)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Return it to a hazardous waste management centre
+    - Blue Bin
+    - Garbage
+    - Dump in a landfill
+    correctAns: Return it to a hazardous waste management centre
+  - questionInfo: Which method is used to dispose of batteries? (reuseable or single
+      use)
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: e4178ddee5e70954595a888406a5097a, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Garbage
+    - Blue Bin
+    - Dump in a landfill
+    - Return it to a hazardous waste management centre
+    correctAns: Return it to a hazardous waste management centre
+  - questionInfo: Which method is used to dispose of light bulbs?
+    questionType: 1
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Garbage
+    - Blue Bin
+    - Dump in a landfill
+    - Return it to a hazardous waste management centre
+    correctAns: Garbage
+  - questionInfo: Which method is used to dispose of plastic dishes?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: d87046c969d42174fa1a160d5f7ba38f, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Green Bin
+    - Blue Bin
+    - Black Bin
+    - Garbage
+    correctAns: Garbage
