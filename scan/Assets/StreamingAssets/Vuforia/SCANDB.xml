@@ -1,22 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
     <Tracking>
+        <CylinderTarget name="Waterbottles_1" sideLength="7.000000"/>
         <CylinderTarget name="Cocacola" sideLength="11.500000"/>
-        <ImageTarget name="LAPTOP_1" size="25.000000 35.823616"/>
         <ImageTarget name="BOOK_1" size="10.000000 6.541490"/>
         <ImageTarget name="CARD_1" size="5.000000 7.297735"/>
-        <ImageTarget name="CigaretteCase_2.Front" size="5.500000 8.700000"/>
+        <ImageTarget name="ChipBags_1.Front" size="14.000000 22.000000"/>
+        <ImageTarget name="ChipBags_1.Back" size="14.000000 22.000000"/>
+        <ImageTarget name="RemoteControl_1.Top" size="5.500000 1.700000"/>
+        <ImageTarget name="RemoteControl_1.Bottom" size="5.500000 1.700000"/>
+        <ImageTarget name="RemoteControl_1.Front" size="5.500000 13.300000"/>
+        <ImageTarget name="RemoteControl_1.Right" size="1.700000 13.300000"/>
+        <ImageTarget name="RemoteControl_1.Back" size="5.500000 13.300000"/>
+        <ImageTarget name="RemoteControl_1.Left" size="1.700000 13.300000"/>
+        <ImageTarget name="Tissues_1.Top" size="5.200000 2.400000"/>
+        <ImageTarget name="Tissues_1.Bottom" size="5.200000 2.400000"/>
+        <ImageTarget name="Tissues_1.Front" size="5.200000 7.400000"/>
+        <ImageTarget name="Tissues_1.Right" size="2.400000 7.400001"/>
+        <ImageTarget name="Tissues_1.Back" size="5.200000 7.400000"/>
+        <ImageTarget name="Tissues_1.Left" size="2.400000 7.400001"/>
+        <ImageTarget name="Milkbox_1.Top" size="5.300000 3.300000"/>
+        <ImageTarget name="Milkbox_1.Bottom" size="5.300000 3.300000"/>
+        <ImageTarget name="Milkbox_1.Front" size="5.300000 13.200001"/>
+        <ImageTarget name="Milkbox_1.Right" size="3.300000 13.200000"/>
+        <ImageTarget name="Milkbox_1.Back" size="5.300000 13.200001"/>
+        <ImageTarget name="Milkbox_1.Left" size="3.300000 13.200000"/>
+        <ImageTarget name="CigaretteCase_2.Top" size="5.500000 2.300000"/>
         <ImageTarget name="CigaretteCase_2.Bottom" size="5.500000 2.300000"/>
+        <ImageTarget name="CigaretteCase_2.Front" size="5.500000 8.700000"/>
+        <ImageTarget name="CigaretteCase_2.Right" size="2.300000 8.700000"/>
         <ImageTarget name="CigaretteCase_2.Back" size="5.500000 8.700000"/>
         <ImageTarget name="CigaretteCase_2.Left" size="2.300000 8.700000"/>
-        <ImageTarget name="CigaretteCase_2.Right" size="2.300000 8.700000"/>
-        <ImageTarget name="CigaretteCase_2.Top" size="5.500000 2.300000"/>
-        <ImageTarget name="CigaretteCase_1.Front" size="2.200000 8.700000"/>
+        <ImageTarget name="CigaretteCase_1.Top" size="2.200000 5.500000"/>
         <ImageTarget name="CigaretteCase_1.Bottom" size="2.200000 5.500000"/>
+        <ImageTarget name="CigaretteCase_1.Front" size="2.200000 8.700000"/>
+        <ImageTarget name="CigaretteCase_1.Right" size="5.500000 8.700000"/>
         <ImageTarget name="CigaretteCase_1.Back" size="2.200000 8.700000"/>
         <ImageTarget name="CigaretteCase_1.Left" size="5.500000 8.700000"/>
-        <ImageTarget name="CigaretteCase_1.Right" size="5.500000 8.700000"/>
-        <ImageTarget name="CigaretteCase_1.Top" size="2.200000 5.500000"/>
+        <MultiTarget name="ChipBags_1">
+            <Part name="ChipBags_1.Front" translation="0 0 0.05000000074505806" rotation="AD: 1 0 0 0"/>
+            <Part name="ChipBags_1.Back" translation="0 0 -0.05000000074505806" rotation="AD: 0 1 0 180"/>
+        </MultiTarget>
+        <MultiTarget name="RemoteControl_1">
+            <Part name="RemoteControl_1.Left" translation="-2.75 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="RemoteControl_1.Right" translation="2.75 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="RemoteControl_1.Front" translation="0 0 0.8500000238418579" rotation="AD: 1 0 0 0"/>
+            <Part name="RemoteControl_1.Back" translation="0 0 -0.8500000238418579" rotation="AD: 0 1 0 180"/>
+            <Part name="RemoteControl_1.Top" translation="0 6.650000095367432 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="RemoteControl_1.Bottom" translation="0 -6.650000095367432 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Tissues_1">
+            <Part name="Tissues_1.Left" translation="-2.5999999046325684 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Tissues_1.Right" translation="2.5999999046325684 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Tissues_1.Front" translation="0 0 1.2000000476837158" rotation="AD: 1 0 0 0"/>
+            <Part name="Tissues_1.Back" translation="0 0 -1.2000000476837158" rotation="AD: 0 1 0 180"/>
+            <Part name="Tissues_1.Top" translation="0 3.700000047683716 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Tissues_1.Bottom" translation="0 -3.700000047683716 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Milkbox_1">
+            <Part name="Milkbox_1.Left" translation="-2.6500000953674316 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Milkbox_1.Right" translation="2.6500000953674316 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Milkbox_1.Front" translation="0 0 1.649999976158142" rotation="AD: 1 0 0 0"/>
+            <Part name="Milkbox_1.Back" translation="0 0 -1.649999976158142" rotation="AD: 0 1 0 180"/>
+            <Part name="Milkbox_1.Top" translation="0 6.599999904632568 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Milkbox_1.Bottom" translation="0 -6.599999904632568 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
         <MultiTarget name="CigaretteCase_2">
             <Part name="CigaretteCase_2.Left" translation="-2.75 0 0" rotation="AD: 0 1 0 -90"/>
             <Part name="CigaretteCase_2.Right" translation="2.75 0 0" rotation="AD: 0 1 0 90"/>
