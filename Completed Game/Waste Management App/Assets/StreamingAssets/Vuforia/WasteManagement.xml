@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="paint_can" size="4.000000 6.093174" />
+    <ImageTarget name="ketchup_bottle" size="4.000000 9.774762" />
+    <ImageTarget name="glass_clearner" size="4.000000 15.679644" />
+    <ImageTarget name="gin_bottle" size="4.000000 11.359191" />
+    <ImageTarget name="calculator_front" size="4.000000 8.024664" />
+    <ImageTarget name="calculator_back" size="4.000000 8.140135" />
+    <ImageTarget name="battery" size="4.000000 2.146342" />
+    <ImageTarget name="monster_side" size="4.000000 9.704254" />
+    <ImageTarget name="monster_otherside" size="4.000000 10.163292" />
+    <ImageTarget name="monster_front" size="4.000000 9.527526" />
+    <ImageTarget name="gum_back" size="4.000000 4.820031" />
+    <ImageTarget name="gum_front" size="4.000000 3.213067" />
+  </Tracking>
+</QCARConfig>
